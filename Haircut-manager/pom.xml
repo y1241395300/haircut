@@ -4,6 +4,10 @@
   <artifactId>Haircut-manager</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <parent>    <groupId>cn.haircut</groupId>
+    <artifactId>Haircut-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
   <modules>
   	<module>Haircut-manager-pojo</module>
   	<module>Haiarcut-manager-dao</module>
